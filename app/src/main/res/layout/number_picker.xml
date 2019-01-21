@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center_vertical"
+       android:gravity="center"
+>
+
+    <RelativeLayout android:id="@+id/rl_option_value_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="0dp" android:layout_marginStart="0dp" android:layout_marginTop="0dp">
+
+
+        <Button
+                android:id="@+id/button_option_value_minus"
+                android:text="@string/minus"
+                android:layout_width="wrap_content"
+                android:textSize="30sp"
+                android:width="50dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:tag="minus" android:layout_alignParentBottom="true" android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp" android:layout_alignParentTop="true"/>
+        <TextView
+                android:id="@+id/text_option_value"
+                android:text="@string/default_value_option"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="30sp"
+                android:width="50dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:textColor="@color/darkColor"
+                android:layout_toStartOf="@+id/button_option_value_add"
+                android:layout_marginEnd="0dp"
+                android:layout_toEndOf="@+id/button_option_value_minus"
+                android:layout_marginStart="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentTop="true"/>
+        <Button
+                android:id="@+id/button_option_value_add"
+                android:text="@string/add"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_alignParentEnd="true"
+                android:tag="add"
+        />
+
+
+    </RelativeLayout>
+
+</merge>

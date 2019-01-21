@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Number Picker</string>
+    <string name="minus">-</string>
+    <string name="default_value_option">0</string>
+    <string name="add">+</string>
+    <string name="minus_ten">- 10</string>
+    <string name="add_ten">+ 10</string>
+    <string name="set_value">set the value to 50</string>
+</resources>
